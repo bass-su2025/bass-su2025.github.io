@@ -1,0 +1,64 @@
+---
+title: "Chapter 1: Data visualization"
+webr:  
+  show-startup-message: true    # Display status of webR initialization
+  packages: ['ggplot2'] # Pre-install dependency
+---
+
+## Set up
+
+We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.
+
+```{webr-r}
+#| context: setup
+
+library(tidyverse)
+library(palmerpenguins)
+library(nycflights13)
+```
+
+# Exercises
+
+All exercises are from [R for Data Science 2nd Edition](https://r4ds.hadley.nz/).
+
+## Chapter 1: Data visualization
+<br>
+
+### [Ex 1 in Section 1.4.3](https://r4ds.hadley.nz/data-visualize.html#exercises-1)
+
+Fill in the blank to make a barplot of `species`, such that `species` is assigned to the y aesthetic.
+
+```{webr-r}
+ggplot(data = penguins, aes(y = _____)) + 
+  geom_bar()
+```
+<br>
+
+### [Ex 5 in Section 1.5.5](https://r4ds.hadley.nz/data-visualize.html#exercises-2)
+
+Make a scatterplot of `bill_depth_mm` vs. `bill_length_mm` and color the points by species (That is a scatterplot with bill depth on the y-axis and bill length on the x-axis). What does adding coloring by species reveal about the relationship between these two variables? What about faceting by species?
+
+```{webr-r}
+ggplot(penguins, 
+       aes(x = _____, y = _____)) +
+  geom_point(aes(color = _____)) +
+   labs(
+    title = "_____",
+    x = "Bill length (mm)", y = "Bill depth (g)",
+    color = "_____"
+  ) 
+```
+
+<br> 
+
+```{webr-r}
+ggplot(penguins, 
+       aes(x = _____, y = _____)) +
+  geom_point() + 
+  facet_wrap(~_____) + 
+  labs(
+    title = "_____",
+    x = "Bill length (mm)", y = "Bill depth (mm)")
+```
+
+<br>

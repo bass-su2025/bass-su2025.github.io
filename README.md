@@ -1,1 +1,5 @@
-# bass-su2025.github.io
+# Bass Connections Summer Packet
+
+## Acknowledgement
+
+The website was built using [WebR repo]()

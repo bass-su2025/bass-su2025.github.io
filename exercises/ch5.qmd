@@ -1,0 +1,69 @@
+---
+title: "Chapter 5: Data tidying"
+webr:  
+  show-startup-message: true    # Display status of webR initialization
+---
+
+## Set up
+
+We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.
+
+```{webr-r}
+#| context: setup
+
+library(tidyverse)
+library(palmerpenguins)
+library(nycflights13)
+```
+
+# Exercises
+
+All exercises are from [R for Data Science 2nd Edition](https://r4ds.hadley.nz/).
+
+### [Section 5.3.2](https://r4ds.hadley.nz/data-tidy.html#how-does-pivoting-work)
+
+Suppose we have three patients: A, B, and C, and we take two blood pressure measurements on each patient. 
+
+```{webr-r}
+#| read-only: true
+df <- tribble(
+  ~id,  ~bp1, ~bp2,
+   "A",  100,  120,
+   "B",  140,  115,
+   "C",  120,  125
+)
+df
+```
+
+Suppose you want to create a bar plot with patient IDs on the x-axis and blood pressure values on the y-axis. For each patient, you display two bars: one representing the first blood pressure measurement and the other representing the second. The height of each bar corresponds to the recorded blood pressure value. How would you do it with the current data set? 
+
+We need to transform it first!
+
+```{webr-r}
+df_long <- df |> 
+  pivot_longer(
+    cols = bp1:bp2,
+    names_to = "measurement",
+    values_to = "value"
+  )
+
+df_long
+```
+
+We can now use this transformed dataset! Fill in the blanks to make the plot.
+
+```{webr-r}
+____ |>
+  ggplot(aes(x = _____, y = ____, fill = ____)) +
+     geom_bar(stat = "identity", position = position_dodge()) +
+     labs(
+         x = "Patient ID",
+         y = "Blood Pressure",
+         fill = "Measurement"
+     )
+```
+
+
+::: callout-important
+Try to run the code without including `position = position_dodge()`. What changes? Why did we add this line?
+:::

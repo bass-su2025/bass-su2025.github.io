@@ -1,0 +1,148 @@
+---
+title: "Chapter 3: Data transformation"
+webr:  
+  show-startup-message: true    # Display status of webR initialization
+---
+
+## Set up
+
+We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.
+
+```{webr-r}
+#| context: setup
+
+library(tidyverse)
+library(palmerpenguins)
+library(nycflights13)
+```
+
+# Exercises
+
+All exercises are from [R for Data Science 2nd Edition](https://r4ds.hadley.nz/).
+
+### [Ex 1 in Section 3.2.5](https://r4ds.hadley.nz/data-transform.html#exercises)
+
+In a single pipeline for each condition, find all flights that meet the condition:
+
+-   Had an arrival delay of two or more hours
+
+-   Flew to Houston (IAH or HOU)
+
+-   Departed in summer (July, August, and September)
+
+-   Arrived more than two hours late but didn’t leave late
+
+```{webr-r}
+# Use this code chunk to find flights satisfying the 1st condition
+```
+
+<br>
+
+```{webr-r}
+# Use this code chunk to find flights satisfying the 2nd condition
+```
+
+<br>
+
+```{webr-r}
+# Use this code chunk to find flights satisfying the 3rd condition
+```
+
+<br>
+
+```{webr-r}
+# Use this code chunk to find flights satisfying the 4th condition
+```
+
+### [Ex 3 in Section 3.5.7](https://r4ds.hadley.nz/data-transform.html#exercises-2)
+
+How do delays vary over the course of the day? Illustrate your answer with a plot.
+
+```{webr-r}
+
+flights |>
+  group_by(____) |> # how to make sure we are looking based on time of the day
+  summarize(mean_delay =____) |> # what is the mean delay time for each time of the day
+  ggplot(aes(x = _____, y = _____)) + # make a plot
+  geom_point()
+```
+
+<br>
+
+### [Ex 6 in Section 3.5.7](https://r4ds.hadley.nz/data-transform.html#exercises-2)
+
+Suppose we have the following tiny data frame:
+
+
+
+```{webr-r}
+#| read-only: true
+df <- tibble(
+  x = 1:5,
+  y = c("a", "b", "a", "a", "b"),
+  z = c("K", "K", "L", "L", "K")
+)
+```
+
+For each of the following, what you think the output will look like? Check if you were correct by running the chunk.
+
+a.
+
+```{webr-r}
+#| read-only: true
+df |>
+  group_by(y)
+```
+
+b.
+
+```{webr-r}
+#| read-only: true
+df |>
+  arrange(y)
+```
+
+c.
+
+```{webr-r}
+#| read-only: true
+df |>
+  group_by(y) |>
+  summarize(mean_x = mean(x))
+```
+
+d.
+
+```{webr-r}
+#| read-only: true
+df |>
+  group_by(y, z) |>
+  summarize(mean_x = mean(x))
+```
+
+e.
+
+```{webr-r}
+#| read-only: true
+df |>
+  group_by(y, z) |>
+  summarize(mean_x = mean(x), .groups = "drop")
+```
+
+f.
+
+```{webr-r}
+#| read-only: true
+df |>
+  group_by(y, z) |>
+  summarize(mean_x = mean(x))
+```
+
+g.
+
+```{webr-r}
+#| read-only: true
+df |>
+  group_by(y, z) |>
+  mutate(mean_x = mean(x))
+```

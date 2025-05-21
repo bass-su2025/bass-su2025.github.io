@@ -1,0 +1,98 @@
+[
+  {
+    "objectID": "exercises/ch5.html",
+    "href": "exercises/ch5.html",
+    "title": "Chapter 5: Data tidying",
+    "section": "",
+    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 5: Data tidying"
+    ]
+  },
+  {
+    "objectID": "exercises/ch5.html#set-up",
+    "href": "exercises/ch5.html#set-up",
+    "title": "Chapter 5: Data tidying",
+    "section": "",
+    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 5: Data tidying"
+    ]
+  },
+  {
+    "objectID": "exercises/ch1.html",
+    "href": "exercises/ch1.html",
+    "title": "Chapter 1: Data visualization",
+    "section": "",
+    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 1: Data visualization"
+    ]
+  },
+  {
+    "objectID": "exercises/ch1.html#set-up",
+    "href": "exercises/ch1.html#set-up",
+    "title": "Chapter 1: Data visualization",
+    "section": "",
+    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 1: Data visualization"
+    ]
+  },
+  {
+    "objectID": "exercises/ch1.html#chapter-1-data-visualization",
+    "href": "exercises/ch1.html#chapter-1-data-visualization",
+    "title": "Chapter 1: Data visualization",
+    "section": "Chapter 1: Data visualization",
+    "text": "Chapter 1: Data visualization\n\n\nEx 1 in Section 1.4.3\nFill in the blank to make a barplot of species, such that species is assigned to the y aesthetic.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nEx 5 in Section 1.5.5\nMake a scatterplot of bill_depth_mm vs. bill_length_mm and color the points by species (That is a scatterplot with bill depth on the y-axis and bill length on the x-axis). What does adding coloring by species reveal about the relationship between these two variables? What about faceting by species?\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 1: Data visualization"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome\nWelcome! This page is designed to help you practice organizing, cleaning, visualizing, and analyzing data without the need to install anything.These selected exercises from R for Data Science 2nd Edition are designed to help you reinforce the book’s concepts through hands-on coding. They’re meant to be used while reading the book, so make sure you’re following along!",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "exercises/ch3.html",
+    "href": "exercises/ch3.html",
+    "title": "Chapter 3: Data transformation",
+    "section": "",
+    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 3: Data transformation"
+    ]
+  },
+  {
+    "objectID": "exercises/ch3.html#set-up",
+    "href": "exercises/ch3.html#set-up",
+    "title": "Chapter 3: Data transformation",
+    "section": "",
+    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 3: Data transformation"
+    ]
+  }
+]
