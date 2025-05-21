@@ -13,7 +13,7 @@ jobs:
       - run: quarto render
       - uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          external_repository: bass-su2025/bass-su2025.github.io # ← change to actual target repo
+          personal_token: ${{ secrets.GH_PAT }}
+          external_repository: bass-su2025/bass-su2025.github.io
           publish_branch: gh-pages
+          publish_dir: ./_site
