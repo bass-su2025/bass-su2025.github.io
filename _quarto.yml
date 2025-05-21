@@ -10,8 +10,8 @@ website:
   title: "Bass Connections Summer Exercises"
   search: true
   reader-mode: true
-  site-url: "https://kathusar.github.io/bass_summer_exercises/"
-  repo-url: https://github.com/KatHusar/bass_summer_exercises
+  site-url: "https://bass-su2025.github.io/"
+  repo-url: https://github.com/bass-su2025/bass-su2025.github.io
   repo-actions: [edit, issue]
   navbar:
     left:
