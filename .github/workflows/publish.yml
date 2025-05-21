@@ -22,7 +22,6 @@ jobs:
         with:
           personal_token: ${{ secrets.GH_PAT }}
           external_repository: bass-su2025/bass-su2025.github.io
-          publish_branch: gh-pages
           publish_dir: ./_site
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
