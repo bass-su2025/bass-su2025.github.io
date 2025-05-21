@@ -15,3 +15,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          external_repository: bass-su2025/bass-su2025.github.io # ← change to actual target repo
+          publish_branch: gh-pages
