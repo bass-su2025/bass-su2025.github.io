@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -367,7 +367,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"options":{"editor-font-scale":"1","fig-cap":"","output":"true","label":"unnamed-chunk-1","message":"true","fig-width":7,"context":"setup","out-width":"700px","editor-word-wrap":"true","read-only":"false","autorun":"true","results":"markup","classes":"","dpi":72,"out-height":"","editor-max-height":"","warning":"true","comment":"","editor-quick-suggestions":"false","fig-height":5},"code":"library(tidyverse)\nlibrary(palmerpenguins)\nlibrary(nycflights13)"},{"id":2,"options":{"editor-font-scale":"1","fig-cap":"","output":"true","label":"unnamed-chunk-2","message":"true","fig-width":7,"context":"interactive","out-width":"700px","editor-word-wrap":"true","read-only":"true","autorun":"false","results":"markup","classes":"","dpi":72,"out-height":"","editor-max-height":"","warning":"true","comment":"","editor-quick-suggestions":"false","fig-height":5},"code":"df <- tribble(\n  ~id,  ~bp1, ~bp2,\n   \"A\",  100,  120,\n   \"B\",  140,  115,\n   \"C\",  120,  125\n)\ndf"},{"id":3,"options":{"editor-font-scale":"1","fig-cap":"","output":"true","label":"unnamed-chunk-3","message":"true","fig-width":7,"context":"interactive","out-width":"700px","editor-word-wrap":"true","read-only":"false","autorun":"false","results":"markup","classes":"","dpi":72,"out-height":"","editor-max-height":"","warning":"true","comment":"","editor-quick-suggestions":"false","fig-height":5},"code":"df_long <- df |> \n  pivot_longer(\n    cols = bp1:bp2,\n    names_to = \"measurement\",\n    values_to = \"value\"\n  )\n\ndf_long"},{"id":4,"options":{"editor-font-scale":"1","fig-cap":"","output":"true","label":"unnamed-chunk-4","message":"true","fig-width":7,"context":"interactive","out-width":"700px","editor-word-wrap":"true","read-only":"false","autorun":"false","results":"markup","classes":"","dpi":72,"out-height":"","editor-max-height":"","warning":"true","comment":"","editor-quick-suggestions":"false","fig-height":5},"code":"____ |>\n  ggplot(aes(x = _____, y = ____, fill = ____)) +\n     geom_bar(stat = \"identity\", position = position_dodge()) +\n     labs(\n         x = \"Patient ID\",\n         y = \"Blood Pressure\",\n         fill = \"Measurement\"\n     )"}];
+globalThis.qwebrCellDetails = [{"code":"library(tidyverse)\nlibrary(palmerpenguins)\nlibrary(nycflights13)","id":1,"options":{"autorun":"true","classes":"","comment":"","context":"setup","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"df <- tribble(\n  ~id,  ~bp1, ~bp2,\n   \"A\",  100,  120,\n   \"B\",  140,  115,\n   \"C\",  120,  125\n)\ndf","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"true","results":"markup","warning":"true"}},{"code":"df_long <- df |> \n  pivot_longer(\n    cols = bp1:bp2,\n    names_to = \"measurement\",\n    values_to = \"value\"\n  )\n\ndf_long","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"____ |>\n  ggplot(aes(x = _____, y = ____, fill = ____)) +\n     geom_bar(stat = \"identity\", position = position_dodge()) +\n     labs(\n         x = \"Patient ID\",\n         y = \"Blood Pressure\",\n         fill = \"Measurement\"\n     )","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-4","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 </script>
 <script type="module">
@@ -2146,8 +2146,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -2258,7 +2256,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
