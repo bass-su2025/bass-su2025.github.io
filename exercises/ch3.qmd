@@ -148,7 +148,11 @@ df |>
 ```
 
 
+### Open code chunk
+
+Here is a code chunk in case you wish to play around with some code
+
 ```{webr-r}
-# This code chunk if left in case you wish to play around with some code
+# your code goes here
 ```
 

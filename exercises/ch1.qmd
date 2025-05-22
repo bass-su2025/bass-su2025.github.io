@@ -62,3 +62,11 @@ ggplot(penguins,
 ```
 
 <br>
+
+### Open code chunk
+
+Here is a code chunk in case you wish to play around with some code
+
+```{webr-r}
+# your code goes here
+```

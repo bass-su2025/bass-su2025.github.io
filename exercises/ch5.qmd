@@ -67,3 +67,13 @@ ____ |>
 ::: callout-important
 Try to run the code without including `position = position_dodge()`. What changes? Why did we add this line?
 :::
+
+
+### Open code chunk
+
+Here is a code chunk in case you wish to play around with some code
+
+```{webr-r}
+# your code goes here
+```
+
