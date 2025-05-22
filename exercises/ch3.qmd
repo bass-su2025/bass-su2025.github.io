@@ -146,3 +146,9 @@ df |>
   group_by(y, z) |>
   mutate(mean_x = mean(x))
 ```
+
+
+```{webr-r}
+# This code chunk if left in case you wish to play around with some code
+```
+
