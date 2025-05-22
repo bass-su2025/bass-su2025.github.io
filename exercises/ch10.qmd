@@ -1,0 +1,106 @@
+---
+title: "Chapter 10: Exploratory data analysis"
+webr:  
+  show-startup-message: true    # Display status of webR initialization
+---
+
+## Set up
+
+We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.
+
+```{webr-r}
+#| context: setup
+
+library(tidyverse)
+library(palmerpenguins)
+library(nycflights13)
+```
+
+# Exercises
+
+All exercises are from [R for Data Science 2nd Edition](https://r4ds.hadley.nz/).
+
+### [Ex 1 in Section 10.3.3](https://r4ds.hadley.nz/EDA.html#exercises)
+
+Explore the distribution of `price` in the `diamonds` dataset. Do you discover anything unusual or surprising? (Hint: Carefully think about the binwidth and make sure you try a wide range of values.)
+
+```{webr-r}
+diamonds |> _____
+```
+
+In [section 10.4](https://r4ds.hadley.nz/EDA.html#sec-unusual-values-eda), the authors recommend replacing the unusual values with missing values to prevent misleading calculations.
+Following the reading, we create a new dataset, `diamonds2`, that replaces these unusual values with `NA` (read chapter 10 for more details).
+
+
+```{webr-r}
+#| read-only: true
+diamonds2 <- diamonds |> 
+     mutate(y = if_else(y < 3 | y > 20, NA, y))
+```
+
+### [Ex 2 in Section 10.4.1](https://r4ds.hadley.nz/EDA.html#exercises-1)
+
+What does `na.rm = TRUE` do in `mean()` and `sum()`? You can use the `y` variable in `diamonds2` dataset to explore this question.
+
+```{webr-r}
+# your code goes here
+
+```
+
+### [Ex 3 in Section 10.4.1](https://r4ds.hadley.nz/EDA.html#exercises-1)
+
+Recreate the frequency plot of `scheduled_dep_time` colored by whether the flight was cancelled or not. Also facet by the `cancelled` variable. Experiment with different values of the scales variable in the faceting function to mitigate the effect of more non-cancelled flights than cancelled flights.
+
+We provide you with the code from [section 10.4](https://r4ds.hadley.nz/EDA.html#sec-unusual-values-eda) as the baseline. You want to update it to include the faceting with appropriate scaling.
+
+```{webr-r}
+# frequency plot
+
+flights |> 
+  mutate(
+    cancelled = is.na(dep_time),
+    sched_hour = sched_dep_time %/% 100,
+    sched_min = sched_dep_time %% 100,
+    sched_dep_time = sched_hour + (sched_min / 60)
+  ) |> 
+  ggplot(aes(x = sched_dep_time)) + 
+  geom_freqpoly(aes(color = cancelled), binwidth = 1/4)
+```
+
+
+### [Ex 5 in Section 10.5.1.1](https://r4ds.hadley.nz/EDA.html#exercises-2)
+
+Create a visualization of diamond prices vs. a categorical variable from the `diamonds` dataset using `geom_violin()`, then a faceted `geom_histogram()`, then a colored `geom_freqpoly()`, and then a colored `geom_density()`. Compare and contrast the four plots. What are the pros and cons of each method of visualizing the distribution of a numerical variable based on the levels of a categorical variable?
+
+```{webr-r}
+# Your geom_violin goes here
+
+```
+
+
+```{webr-r}
+# Your geom_histogram goes here
+
+```
+
+
+```{webr-r}
+# Your geom_freqpoly goes here
+
+```
+
+
+```{webr-r}
+# Your geom_density goes here
+
+```
+
+
+### Open code chunk
+
+Here is a code chunk in case you wish to play around with some code
+
+```{webr-r}
+# your code goes here
+```
+
