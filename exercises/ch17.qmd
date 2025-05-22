@@ -1,0 +1,60 @@
+---
+title: "Chapter 17: Dates and tims"
+webr:  
+  show-startup-message: true    # Display status of webR initialization
+---
+
+## Set up
+
+We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.
+
+```{webr-r}
+#| context: setup
+
+library(tidyverse)
+library(palmerpenguins)
+library(nycflights13)
+```
+
+# Exercises
+
+All exercises are from [R for Data Science 2nd Edition](https://r4ds.hadley.nz/).
+
+### [Ex 3 in Section 17.2.5](https://r4ds.hadley.nz/datetimes.html#exercises)
+
+For each of the following date-times, show how you’d parse it using a readr column specification and a lubridate function (refer to [section 17.2.2](https://r4ds.hadley.nz/datetimes.html#from-strings)).
+
+```{webr-r}
+#| read-only: true
+d1 <- "January 1, 2010"
+d2 <- "2015-Mar-07"
+d3 <- "06-Jun-2017"
+d4 <- c("August 19 (2015)", "July 1 (2015)")
+d5 <- "12/30/14" # Dec 30, 2014
+t1 <- "1705"
+t2 <- "11:15:10.12 PM"
+```
+
+```{webr-r}
+# your code goes here
+
+```
+
+
+### [Ex 3 in Section 17.3.4](https://r4ds.hadley.nz/datetimes.html#exercises-1)
+
+Compare air_time with the duration between the departure and arrival. Explain your findings. (Hint: consider the location of the airport.)
+
+```{webr-r}
+# your code goes here
+
+```
+
+### Open code chunk
+
+Here is a code chunk in case you wish to play around with some code
+
+```{webr-r}
+# your code goes here
+```
+

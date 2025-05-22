@@ -1,0 +1,52 @@
+---
+title: "Chapter 13: Numbers"
+webr:  
+  show-startup-message: true    # Display status of webR initialization
+---
+
+## Set up
+
+We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.
+
+```{webr-r}
+#| context: setup
+
+library(tidyverse)
+library(palmerpenguins)
+library(nycflights13)
+```
+
+# Exercises
+
+All exercises are from [R for Data Science 2nd Edition](https://r4ds.hadley.nz/).
+
+### [Ex 3 in Section 13.4.8](https://r4ds.hadley.nz/numbers.html#exercises-1)
+
+Currently `dep_time` and `sched_dep_time` are convenient to look at, but hard to compute with because they’re not really continuous numbers. You can see the basic problem by running the code below: there’s a gap between each hour.
+
+```{webr-r}
+#| read-only: true
+flights |> 
+  filter(month == 1, day == 1) |> 
+  ggplot(aes(x = sched_dep_time, y = dep_delay)) +
+  geom_point()
+```
+
+Convert them to a more truthful representation of time (either fractional hours or minutes since midnight).
+
+```{webr-r}
+# your code goes here
+
+```
+
+
+
+
+### Open code chunk
+
+Here is a code chunk in case you wish to play around with some code
+
+```{webr-r}
+# your code goes here
+```
+

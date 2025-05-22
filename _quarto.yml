@@ -29,6 +29,9 @@ website:
           - exercises/ch3.qmd
           - exercises/ch5.qmd
           - exercises/ch10.qmd
+          - exercises/ch12.qmd
+          - exercises/ch13.qmd
+          - exercises/ch17.qmd
 
   page-footer: 
     left: "Built using Quarto Webr."
