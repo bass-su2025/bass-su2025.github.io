@@ -28,7 +28,7 @@ How does `near()` in `dplyr` package work? Type `near` to see the source code. I
 2 == sqrt(2)^2
 ```
 
-```{webr}
+```{webr-r}
 # using near
 near(2, sqrt(2)^2)
 ```
