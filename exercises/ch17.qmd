@@ -1,5 +1,5 @@
 ---
-title: "Chapter 17: Dates and tims"
+title: "Chapter 17: Dates and times"
 webr:  
   show-startup-message: true    # Display status of webR initialization
 ---
