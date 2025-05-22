@@ -2,6 +2,5 @@
 title: "Welcome"
 ---
 
-# Welcome
 
 Welcome! This page is designed to help you practice organizing, cleaning, visualizing, and analyzing data without the need to install anything.These selected exercises from [R for Data Science 2nd Edition](https://r4ds.hadley.nz/) are designed to help you reinforce the book’s concepts through hands-on coding. They’re meant to be used while reading the book, so make sure you’re following along!
