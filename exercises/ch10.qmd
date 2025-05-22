@@ -28,6 +28,8 @@ Explore the distribution of `price` in the `diamonds` dataset. Do you discover a
 diamonds |> _____
 ```
 
+<br>
+
 In [section 10.4](https://r4ds.hadley.nz/EDA.html#sec-unusual-values-eda), the authors recommend replacing the unusual values with missing values to prevent misleading calculations.
 Following the reading, we create a new dataset, `diamonds2`, that replaces these unusual values with `NA` (read chapter 10 for more details).
 

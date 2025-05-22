@@ -1,0 +1,59 @@
+---
+title: "Chapter 12: Logical vectors"
+webr:  
+  show-startup-message: true    # Display status of webR initialization
+---
+
+## Set up
+
+We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.
+
+```{webr-r}
+#| context: setup
+
+library(tidyverse)
+library(palmerpenguins)
+library(nycflights13)
+```
+
+# Exercises
+
+All exercises are from [R for Data Science 2nd Edition](https://r4ds.hadley.nz/).
+
+### [Ex 1 in Section 12.2.4](https://r4ds.hadley.nz/logicals.html#exercises)
+How does `near()` in `dplyr` package work? Type `near` to see the source code. Is `sqrt(2)^2` near `2`?
+
+```{webr-r}
+# using equals comaprison
+2 == sqrt(2)^2
+```
+
+```{webr}
+# using near
+near(2, sqrt(2)^2)
+```
+
+More about floating point comparison can be found in [section 12.2.1](https://r4ds.hadley.nz/logicals.html#sec-fp-comparison).
+
+
+### [Ex 1 in Section 12.3.4](https://r4ds.hadley.nz/logicals.html#exercises-1)
+
+Find all flights where `arr_delay` is missing but `dep_delay` is not. Find all flights where neither `arr_time` nor `sched_arr_time` are missing, but `arr_delay` is.
+
+```{webr-r}
+# your code for the first part goes here
+
+```
+
+```{webr-r}
+# your code for the second part goes here
+
+```
+### Open code chunk
+
+Here is a code chunk in case you wish to play around with some code
+
+```{webr-r}
+# your code goes here
+```
+

@@ -34,24 +34,28 @@ In a single pipeline for each condition, find all flights that meet the conditio
 
 ```{webr-r}
 # Use this code chunk to find flights satisfying the 1st condition
+
 ```
 
 <br>
 
 ```{webr-r}
 # Use this code chunk to find flights satisfying the 2nd condition
+
 ```
 
 <br>
 
 ```{webr-r}
 # Use this code chunk to find flights satisfying the 3rd condition
+
 ```
 
 <br>
 
 ```{webr-r}
 # Use this code chunk to find flights satisfying the 4th condition
+
 ```
 
 ### [Ex 3 in Section 3.5.7](https://r4ds.hadley.nz/data-transform.html#exercises-2)
