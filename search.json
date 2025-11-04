@@ -1,38 +1,50 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "Welcome! This page is designed to help you practice organizing, cleaning, visualizing, and analyzing data without the need to install anything.These selected exercises from R for Data Science 2nd Edition are designed to help you reinforce the book’s concepts through hands-on coding. They’re meant to be used while reading the book, so make sure you’re following along!",
-    "crumbs": [
-      "Home",
-      "Content",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "exercises/ch3.html",
-    "href": "exercises/ch3.html",
-    "title": "Chapter 3: Data transformation",
+    "objectID": "exercises/ch10.html",
+    "href": "exercises/ch10.html",
+    "title": "Chapter 10: Exploratory data analysis",
     "section": "",
     "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Home",
       "Content",
-      "Chapter 3: Data transformation"
+      "Chapter 10: Exploratory data analysis"
     ]
   },
   {
-    "objectID": "exercises/ch3.html#set-up",
-    "href": "exercises/ch3.html#set-up",
-    "title": "Chapter 3: Data transformation",
+    "objectID": "exercises/ch10.html#set-up",
+    "href": "exercises/ch10.html#set-up",
+    "title": "Chapter 10: Exploratory data analysis",
     "section": "",
     "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Home",
       "Content",
-      "Chapter 3: Data transformation"
+      "Chapter 10: Exploratory data analysis"
+    ]
+  },
+  {
+    "objectID": "exercises/ch13.html",
+    "href": "exercises/ch13.html",
+    "title": "Chapter 13: Numbers",
+    "section": "",
+    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 13: Numbers"
+    ]
+  },
+  {
+    "objectID": "exercises/ch13.html#set-up",
+    "href": "exercises/ch13.html#set-up",
+    "title": "Chapter 13: Numbers",
+    "section": "",
+    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 13: Numbers"
     ]
   },
   {
@@ -60,27 +72,39 @@
     ]
   },
   {
-    "objectID": "exercises/ch10.html",
-    "href": "exercises/ch10.html",
-    "title": "Chapter 10: Exploratory data analysis",
+    "objectID": "exercises/ch3.html",
+    "href": "exercises/ch3.html",
+    "title": "Chapter 3: Data transformation",
     "section": "",
     "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Home",
       "Content",
-      "Chapter 10: Exploratory data analysis"
+      "Chapter 3: Data transformation"
     ]
   },
   {
-    "objectID": "exercises/ch10.html#set-up",
-    "href": "exercises/ch10.html#set-up",
-    "title": "Chapter 10: Exploratory data analysis",
+    "objectID": "exercises/ch3.html#set-up",
+    "href": "exercises/ch3.html#set-up",
+    "title": "Chapter 3: Data transformation",
     "section": "",
     "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Home",
       "Content",
-      "Chapter 10: Exploratory data analysis"
+      "Chapter 3: Data transformation"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Welcome! This page is designed to help you practice organizing, cleaning, visualizing, and analyzing data without the need to install anything. These selected exercises from R for Data Science 2nd Edition are designed to help you reinforce the book’s concepts through hands-on coding. They’re meant to be used while reading the book, so make sure you’re following along!",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Welcome"
     ]
   },
   {
@@ -120,54 +144,6 @@
     ]
   },
   {
-    "objectID": "exercises/ch17.html",
-    "href": "exercises/ch17.html",
-    "title": "Chapter 17: Dates and times",
-    "section": "",
-    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Home",
-      "Content",
-      "Chapter 17: Dates and times"
-    ]
-  },
-  {
-    "objectID": "exercises/ch17.html#set-up",
-    "href": "exercises/ch17.html#set-up",
-    "title": "Chapter 17: Dates and times",
-    "section": "",
-    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Home",
-      "Content",
-      "Chapter 17: Dates and times"
-    ]
-  },
-  {
-    "objectID": "exercises/ch13.html",
-    "href": "exercises/ch13.html",
-    "title": "Chapter 13: Numbers",
-    "section": "",
-    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Home",
-      "Content",
-      "Chapter 13: Numbers"
-    ]
-  },
-  {
-    "objectID": "exercises/ch13.html#set-up",
-    "href": "exercises/ch13.html#set-up",
-    "title": "Chapter 13: Numbers",
-    "section": "",
-    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
-    "crumbs": [
-      "Home",
-      "Content",
-      "Chapter 13: Numbers"
-    ]
-  },
-  {
     "objectID": "exercises/ch12.html",
     "href": "exercises/ch12.html",
     "title": "Chapter 12: Logical vectors",
@@ -189,6 +165,30 @@
       "Home",
       "Content",
       "Chapter 12: Logical vectors"
+    ]
+  },
+  {
+    "objectID": "exercises/ch17.html",
+    "href": "exercises/ch17.html",
+    "title": "Chapter 17: Dates and times",
+    "section": "",
+    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 17: Dates and times"
+    ]
+  },
+  {
+    "objectID": "exercises/ch17.html#set-up",
+    "href": "exercises/ch17.html#set-up",
+    "title": "Chapter 17: Dates and times",
+    "section": "",
+    "text": "We have already loaded the R packages you need for this tutorial. Once you start working in RStudio, you will run code like the code shown below to load the R packages you need.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "Home",
+      "Content",
+      "Chapter 17: Dates and times"
     ]
   }
 ]
